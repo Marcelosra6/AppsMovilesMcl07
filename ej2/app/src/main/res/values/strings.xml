@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RecuperaCitas</string>
+    <string name="txt_id">ID de la cita</string>
+    <string name="txt_especialista">Nombre del especialista</string>
+    <string name="txt_descripcion">Descripción / Motivo</string>
+    <string name="txt_fecha">Fecha (dd/mm/aaaa)</string>
+    <string name="txt_estado">Estado (Pendiente / Confirmada)</string>
+    <string name="btn_registrar">Registrar Cita</string>
+    <string name="btn_buscar">Buscar Cita</string>
+    <string name="btn_modificar">Modificar Cita</string>
+    <string name="btn_eliminar">Eliminar Cita</string>
+</resources>
