@@ -5,35 +5,31 @@ plugins {
 }
 
 android {
-    namespace = "com.mchi.ej2"
+
+    namespace = "com.mchi.ej4"
+
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.mchi.ej2"
+
+        applicationId = "com.mchi.ej4"
+
         minSdk = 24
-        targetSdk = 36
+        targetSdk = 34
+
         versionCode = 1
         versionName = "1.0"
-
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
-    buildTypes {
-        release {
-            isMinifyEnabled = false
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
-        }
+    buildFeatures {
+        viewBinding = true
     }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
     }
-    buildFeatures {
-        viewBinding = true
-    }
+
     kotlinOptions {
         jvmTarget = "17"
     }
